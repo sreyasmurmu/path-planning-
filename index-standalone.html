@@ -59,10 +59,17 @@
 
       function App() {
         return (
-          <div className="flex items-center justify-center min-h-screen bg-white">
-            <div className="text-center">
-              <h1 className="text-4xl font-bold text-gray-900">path-planning</h1>
-              <p className="text-xl text-gray-600 mt-2">path planning tool for vex</p>
+          <div style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            minHeight: "100vh",
+            backgroundColor: "#fff",
+            fontFamily: "Inter, system-ui, sans-serif"
+          }}>
+            <div style={{ textAlign: "center" }}>
+              <h1 style={{ fontSize: "48px", fontWeight: "bold", color: "#111", margin: "0" }}>path-planning</h1>
+              <p style={{ fontSize: "20px", color: "#666", marginTop: "8px" }}>path planning tool for vex</p>
             </div>
           </div>
         );
